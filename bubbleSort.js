@@ -1,6 +1,6 @@
 // generate an array with 30 random elements, with random values from 0 to 99
 var numbers = [];
-while(numbers.length <= 30){
+while(numbers.length < 30){
     numbers.push(Math.floor(Math.random() * 100));
 }
 console.log("Unsorted array: \n", JSON.stringify(numbers), "\n");
